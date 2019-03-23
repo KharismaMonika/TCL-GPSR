@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Fri Mar 22 19:51:54 2019 by Eclipse SUMO duarouter Version 1.1.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="mapgrid.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="route.rou.xml"/>
+        <alternatives-output value="route.rou.alt.xml"/>
+    </output>
+
+    <processing>
+        <repair value="true"/>
+    </processing>
+
+    <report>
+        <ignore-errors value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="0" depart="0.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="I0H0 H0I0 I0I1 I1J1 J1J2 J2K2 K2K3 K3K4 K4K5 K5K6 K6J6"/>
+    </vehicle>
+    <vehicle id="1" depart="1.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="E7E6 E6E7 E7D7 D7D8 D8D9 D9C9"/>
+    </vehicle>
+    <vehicle id="2" depart="2.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="I6I7 I7I6 I6H6 H6H5 H5G5 G5G4 G4F4 F4F3 F3F2 F2E2"/>
+    </vehicle>
+    <vehicle id="3" depart="3.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="J6J5 J5I5 I5I4 I4H4 H4H3 H3G3 G3G2 G2G1 G1F1"/>
+    </vehicle>
+    <vehicle id="4" depart="4.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="E10D10 D10D9 D9C9 C9C8 C8B8 B8A8"/>
+    </vehicle>
+    <vehicle id="5" depart="5.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="C8B8 B8C8 C8C7 C7D7 D7D6 D6E6 E6E5 E5F5 F5G5 G5F5"/>
+    </vehicle>
+    <vehicle id="6" depart="6.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="D0E0 E0E1 E1F1 F1F2 F2F3 F3E3"/>
+    </vehicle>
+    <vehicle id="7" depart="7.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="D0D1 D1E1 E1E2 E2F2 F2G2 G2H2 H2I2 I2I3"/>
+    </vehicle>
+    <vehicle id="8" depart="8.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="J8K8 K8K9 K9K10 K10K9"/>
+    </vehicle>
+    <vehicle id="9" depart="9.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="G9H9 H9H8 H8G8 G8G7 G7F7 F7F6 F6F5 F5F6"/>
+    </vehicle>
+    <vehicle id="10" depart="10.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="B4B3 B3B4 B4C4"/>
+    </vehicle>
+    <vehicle id="11" depart="11.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="E9F9 F9F8 F8G8 G8G7 G7H7 H7H6 H6H5 H5H4 H4H3 H3H4"/>
+    </vehicle>
+    <vehicle id="12" depart="12.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="H6I6 I6H6 H6H7 H7G7 G7G8 G8F8 F8E8 E8E7"/>
+    </vehicle>
+    <vehicle id="13" depart="13.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="C0C1 C1D1 D1E1 E1F1"/>
+    </vehicle>
+    <vehicle id="14" depart="14.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="E9E8 E8D8 D8D7 D7C7 C7C6 C6B6 B6B5 B5A5 A5A4 A4A3 A3A4"/>
+    </vehicle>
+    <vehicle id="15" depart="15.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="D1C1 C1C2 C2D2 D2D3 D3E3 E3E4 E4F4 F4F5 F5G5 G5G6 G6H6 H6I6 I6H6"/>
+    </vehicle>
+    <vehicle id="16" depart="16.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="D7D8 D8C8 C8C9 C9B9"/>
+    </vehicle>
+    <vehicle id="17" depart="17.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="I9I10 I10I9 I9H9 H9H8 H8H7 H7H6 H6H7"/>
+    </vehicle>
+    <vehicle id="18" depart="18.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="F3F2 F2E2"/>
+    </vehicle>
+    <vehicle id="19" depart="19.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="G5H5 H5H4 H4H3 H3H2 H2G2"/>
+    </vehicle>
+    <vehicle id="20" depart="20.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="K5K4 K4J4 J4J3 J3I3 I3H3 H3G3 G3F3 F3G3"/>
+    </vehicle>
+    <vehicle id="21" depart="21.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="H9G9 G9G8 G8F8 F8F7 F7E7 E7E6 E6E5 E5D5"/>
+    </vehicle>
+    <vehicle id="22" depart="22.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="D10E10 E10E9 E9E8 E8E7 E7E6 E6E5 E5E4 E4E3 E3E4"/>
+    </vehicle>
+    <vehicle id="23" depart="23.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="I10I9"/>
+    </vehicle>
+    <vehicle id="24" depart="24.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="G7G8 G8G7 G7H7 H7H6 H6H5"/>
+    </vehicle>
+    <vehicle id="25" depart="25.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="B10C10 C10C9 C9D9 D9D8 D8D7 D7D6 D6D5 D5D4 D4D3 D3D2 D2D1 D1E1"/>
+    </vehicle>
+    <vehicle id="26" depart="26.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="D0C0 C0D0 D0D1 D1D2 D2D3 D3D4 D4C4"/>
+    </vehicle>
+    <vehicle id="27" depart="27.00" departLane="best" departPos="random_free" departSpeed="max">
+        <route edges="G4G5 G5G4 G4F4 F4E4 E4D4 D4E4"/>
+    </vehicle>
+</routes>

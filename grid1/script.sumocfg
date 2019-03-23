@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.dde/xsd/sumoConfiguration.xsd">
+<input>
+<net-file value="mapgrid.net.xml"/>
+<route-files value="route.rou.xml"/>
+</input>
+<time>
+	<begin value="0"/>
+	<end value="250"/>
+	<step-length value="1"/>
+</time>
+</configuration>
+
